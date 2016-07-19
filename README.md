@@ -13,9 +13,9 @@ so the test results can be viewed on the [qualitywatcher.io](http://qualitywatch
 
 * Download/Clone the repo
 * Run `npm install`
-* Run `gulp` and navigate to `http://localhost:3000` to view the app
+* Run `npm run gulp` and navigate to `http://localhost:3000` to view the app
 
-_*Ensure Mongodb is running*_
+_*Ensure Mongodb is running and JAVA is installed*_
 
 ### Automation
 

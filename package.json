@@ -8,7 +8,8 @@
     "group": "./node_modules/.bin/nightwatch --group",
     "spec": "./node_modules/.bin/nightwatch --test",
     "skipgroup": "./node_modules/.bin/nightwatch --skipgroup",
-    "report": "./node_modules/nightwatch/bin/nightwatch | ./node_modules/qualitywatcher/dist/bin/qualitywatcher.js"
+    "report": "./node_modules/nightwatch/bin/nightwatch | ./node_modules/qualitywatcher/dist/bin/qualitywatcher.js",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "author": "QualityWorksCG",
   "license": "MIT",
