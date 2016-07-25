@@ -30,3 +30,6 @@ _*Ensure Mongodb is running and JAVA is installed*_
     *	Navigate to the extracted folder via command prompt
 
     After you have navigated to the sauce connect folder, run the command `bin\sc -u “Your_Username” - k “Your_Access Key”`. User will input the username of the sauce labs account that will be used as well as the access key which can be found in the user settings section of sauce labs.
+
+* Run Test on Sauce Labs
+    * `npm run sauce`
