@@ -23,3 +23,10 @@ _*Ensure Mongodb is running and JAVA is installed*_
     * `npm test`
 * Run Test and see reports on [qualitywatcher.io](http://qualitywatcher.io/) dashboard
     * See [qualitywatcher](https://github.com/QualityWorksCG/qualitywatcher) node mdoule for setup
+
+* Launch Sauce Connect Tunnel
+    *	Download correct sauce connect zip folder from (https://wiki.saucelabs.com/display/DOCS/Setting+Up+Sauce+Connect)
+    *	Extract compressed folder
+    *	Navigate to the extracted folder via command prompt
+
+    After you have navigated to the sauce connect folder, run the command `bin\sc -u “Your_Username” - k “Your_Access Key”`. User will input the username of the sauce labs account that will be used as well as the access key which can be found in the user settings section of sauce labs.

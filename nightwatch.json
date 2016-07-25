@@ -42,6 +42,25 @@
                 "acceptSslCerts": true
             }
         },
+        "sauce-test": {
+            "launch_url": "localhost:3000",
+            "selenium_port": 80,
+            "selenium_host": "ondemand.saucelabs.com",
+            "silent": true,
+            "username": "YOUR_USERNAME",
+            "access_key": "YOUR_ACCESS_KEY",
+            "screenshots": {
+                "enabled": false,
+                "path": "screenshots"
+            },
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "platform": "windows 10",
+                "version": "51",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true
+            }
+        },
         "firefox": {
             "launch_url": "localhost:3000",
             "selenium_host": "127.0.0.1",

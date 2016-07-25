@@ -5,6 +5,7 @@
   "main": "server/app.js",
   "scripts": {
     "test": "./node_modules/.bin/nightwatch -e",
+    "sauce":"./node_modules/.bin/nightwatch -e sauce-test",
     "group": "./node_modules/.bin/nightwatch --group",
     "spec": "./node_modules/.bin/nightwatch --test",
     "skipgroup": "./node_modules/.bin/nightwatch --skipgroup",
